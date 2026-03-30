@@ -28,20 +28,93 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.lblName = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblAge = new System.Windows.Forms.Label();
+            this.nudAge = new System.Windows.Forms.NumericUpDown();
+            this.btnGreet = new System.Windows.Forms.Button();
+            this.lblGreeting = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAge)).BeginInit();
             this.SuspendLayout();
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(12, 9);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(35, 13);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Name";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(53, 6);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(192, 20);
+            this.textBox1.TabIndex = 1;
+            // 
+            // lblAge
+            // 
+            this.lblAge.AutoSize = true;
+            this.lblAge.Location = new System.Drawing.Point(12, 41);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(26, 13);
+            this.lblAge.TabIndex = 2;
+            this.lblAge.Text = "Age";
+            // 
+            // nudAge
+            // 
+            this.nudAge.Location = new System.Drawing.Point(53, 41);
+            this.nudAge.Name = "nudAge";
+            this.nudAge.Size = new System.Drawing.Size(50, 20);
+            this.nudAge.TabIndex = 3;
+            // 
+            // btnGreet
+            // 
+            this.btnGreet.Location = new System.Drawing.Point(257, 36);
+            this.btnGreet.Name = "btnGreet";
+            this.btnGreet.Size = new System.Drawing.Size(75, 23);
+            this.btnGreet.TabIndex = 4;
+            this.btnGreet.Text = "Greet";
+            this.btnGreet.UseVisualStyleBackColor = true;
+            // 
+            // lblGreeting
+            // 
+            this.lblGreeting.AutoSize = true;
+            this.lblGreeting.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblGreeting.Location = new System.Drawing.Point(158, 112);
+            this.lblGreeting.Name = "lblGreeting";
+            this.lblGreeting.Size = new System.Drawing.Size(71, 20);
+            this.lblGreeting.TabIndex = 5;
+            this.lblGreeting.Text = "Greeting";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(455, 224);
+            this.Controls.Add(this.lblGreeting);
+            this.Controls.Add(this.btnGreet);
+            this.Controls.Add(this.nudAge);
+            this.Controls.Add(this.lblAge);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblName);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.nudAge)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblAge;
+        private System.Windows.Forms.NumericUpDown nudAge;
+        private System.Windows.Forms.Button btnGreet;
+        private System.Windows.Forms.Label lblGreeting;
     }
 }
 
