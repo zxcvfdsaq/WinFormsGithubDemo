@@ -1,6 +1,6 @@
 ﻿namespace WinFormsGithubDemo
 {
-    partial class Form1
+    partial class Greetings
     {
         /// <summary>
         /// Required designer variable.
@@ -99,8 +99,8 @@
             this.Controls.Add(this.lblAge);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblName);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Greetings";
+            this.Text = "Greetings";
             ((System.ComponentModel.ISupportInitialize)(this.nudAge)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
