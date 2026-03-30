@@ -1,6 +1,6 @@
 ﻿namespace WinFormsGithubDemo
 {
-    partial class Form1
+    partial class Greetings
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // Greetings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(455, 224);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Greetings";
+            this.Text = "Greetings";
             this.ResumeLayout(false);
 
         }
