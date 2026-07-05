@@ -17,6 +17,13 @@ namespace WinFormsGithubDemo
             InitializeComponent();
         }
 
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            lblGreeting.Text = "";
+        }
+
         private void btnGreet_Click(object sender, EventArgs e)
         {
 
