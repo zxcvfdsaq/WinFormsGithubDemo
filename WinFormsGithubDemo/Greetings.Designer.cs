@@ -77,6 +77,7 @@
             this.btnGreet.TabIndex = 4;
             this.btnGreet.Text = "Greet";
             this.btnGreet.UseVisualStyleBackColor = true;
+            this.btnGreet.Click += new System.EventHandler(this.btnGreet_Click);
             // 
             // lblGreeting
             // 
@@ -88,7 +89,7 @@
             this.lblGreeting.TabIndex = 5;
             this.lblGreeting.Text = "Greeting";
             // 
-            // Form1
+            // Greetings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

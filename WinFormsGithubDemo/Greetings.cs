@@ -16,5 +16,10 @@ namespace WinFormsGithubDemo
         {
             InitializeComponent();
         }
+
+        private void btnGreet_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
