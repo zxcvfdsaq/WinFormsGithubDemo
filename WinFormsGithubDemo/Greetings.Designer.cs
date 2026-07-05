@@ -1,4 +1,4 @@
-﻿namespace WinFormsGithubDemo
+﻿namespace GreetingApp
 {
     partial class Greetings
     {

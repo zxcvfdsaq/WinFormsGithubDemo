@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsGithubDemo
+namespace GreetingApp
 {
     public partial class Greetings : Form
     {
