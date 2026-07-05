@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lblName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.lblAge = new System.Windows.Forms.Label();
             this.nudAge = new System.Windows.Forms.NumericUpDown();
             this.btnGreet = new System.Windows.Forms.Button();
@@ -46,12 +46,12 @@
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Name";
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Location = new System.Drawing.Point(53, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(192, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtName.Location = new System.Drawing.Point(53, 6);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(192, 20);
+            this.txtName.TabIndex = 1;
             // 
             // lblAge
             // 
@@ -77,6 +77,7 @@
             this.btnGreet.TabIndex = 4;
             this.btnGreet.Text = "Greet";
             this.btnGreet.UseVisualStyleBackColor = true;
+            this.btnGreet.Click += new System.EventHandler(this.btnGreet_Click);
             // 
             // lblGreeting
             // 
@@ -88,7 +89,7 @@
             this.lblGreeting.TabIndex = 5;
             this.lblGreeting.Text = "Greeting";
             // 
-            // Form1
+            // Greetings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,7 +98,7 @@
             this.Controls.Add(this.btnGreet);
             this.Controls.Add(this.nudAge);
             this.Controls.Add(this.lblAge);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblName);
             this.Name = "Greetings";
             this.Text = "Greetings";
@@ -110,7 +111,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label lblAge;
         private System.Windows.Forms.NumericUpDown nudAge;
         private System.Windows.Forms.Button btnGreet;
